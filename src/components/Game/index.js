@@ -185,12 +185,9 @@ class Game extends Component {
         <ItemButton
           key={choice.id}
           data-testid={`${choice.id.toLowerCase()}Button`}
+          onClick={() => this.onClickButton(choice.id)}
         >
-          <GameImage
-            src={choice.imageUrl}
-            alt={choice.id}
-            onClick={() => this.onClickButton(choice.id)}
-          />
+          <GameImage src={choice.imageUrl} alt={choice.id} />
         </ItemButton>
       ))}
     </GameContainer>

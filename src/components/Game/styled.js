@@ -38,7 +38,7 @@ export const Name = styled.h1`
 
 export const ScoreContainer = styled.div`
   background-color: #ffffff;
-  padding: 10px 45px 10px 45px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,6 +50,9 @@ export const ScoreName = styled.p`
   font-family: 'Roboto';
   font-size: 28px;
   margin: 0px;
+  width: 70%;
+  text-align: center;
+  font-weight: bold;
 `
 
 export const ScoreItem = styled.p`
